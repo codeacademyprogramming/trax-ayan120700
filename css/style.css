@@ -921,7 +921,7 @@ transition:1s ;
     margin-left: 10%;
 }
 .testimonial{
-    height: 1500px;
+    height: 1000px;
     position: relative;
     background-color: rgb(247, 247, 247);
 }
@@ -948,7 +948,7 @@ transition:1s ;
 }
 .test-text{
     position: absolute;
-    top: 100px;
+    top: 180px;
     right: 100px;
     font-family: 'Montserrat', sans-serif;
     width: 400px;
@@ -957,6 +957,7 @@ transition:1s ;
     margin: 0;
     line-height: 45px;
     color: white;
+    opacity: 0;
 }
 .test-text::first-line{
     font-size: 16px;
@@ -1060,6 +1061,8 @@ transition:1s ;
 .inputs{
     display: flex;
     justify-content: space-between;
+    margin-top: 80px;
+    opacity: 0;
 }
 .c-input{
     padding: 10px;
@@ -1082,7 +1085,88 @@ transition:1s ;
 background-image: linear-gradient(to left, #5192e1, #23ced5);
 }
 .footer{
-    height: 500px;
+    display: flex;
+    height: 400px;
     background-color: #26313c;
     margin-top: 200px;
+    padding-left: 100px;
+}
+.footer-div{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+}
+.footer-logo{
+    margin-top: 100px;
+    width: 90px;
+    height: 45px;
+    margin-bottom: 30px;
+}
+.footer-text{
+    font-family: 'Montserrat', sans-serif;
+    width: 280px;
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 60px;
+}
+.footer-soc{
+    display: flex;
+    color: white;
+    width: 150px;
+    justify-content: space-between;
+    margin-top: 70px;
+    opacity: 0;
+}
+.footer-soc .soc-div{
+    border: 1px solid white;
+}
+.footer-div:nth-child(3){
+    margin-left: 50px;
+}
+.news{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: white;
+    font-size: 23px;
+    margin-top: 100px;
+}
+.news-text{
+    color: white;
+    font-size: 14px;
+    margin-block-start: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.news-text:hover{
+    color: #23ced5;
+}
+.our-text{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: white;
+    font-weight: 100;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+.our-text:hover{
+    color: #23ced5;
+    margin-left: 5px;
+    transition: .1s;
+}
+.bus-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    line-height: 20px;
+    font-size: 14px ;
+    color: white;
+    width: 250px;
+    margin-bottom: 10px;
 }
